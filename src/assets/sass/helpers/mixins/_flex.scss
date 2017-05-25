@@ -1,0 +1,16 @@
+%flexColumnCenter {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   flex-direction: column;
+}
+%flexCenter {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+@mixin flexAlign($x,$y) {
+   display: flex;
+   align-items: $y;
+   justify-content: $x;
+}

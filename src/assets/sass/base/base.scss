@@ -1,0 +1,13 @@
+body {
+   background-color: #bfbfbf;
+   font-family: 'Didact Gothic', sans-serif;
+}
+.container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0 auto;
+}
+.content {
+   flex: 1;
+}
